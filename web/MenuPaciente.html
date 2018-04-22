@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Bienvenido</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/index.css" type="text/css" media="all" />
+        <link rel="shortcut icon" href="img/favicon.ico"/> 
+        <script type="text/javascript" src="js/Sesion.js"></script>
+    </head>
+    <body background="img/background.png">
+        <h1>
+            <img src="./img/osavitoM.png" alt="OsaVito">
+            <input type="button" id="logout" style="float:right" value="Cerrar sesión" onclick="logout();"/>
+        </h1>
+        <center>Operaciones</center></br>
+            <center>
+                <button class="button button2" type="submit" value="pedirCita" onclick="location='pedirCita.jsp'">Pedir Cita</button>
+                <button class="button button2" type="submit" value="consultarCitas" onclick="location='ConsultarCitasPaciente.jsp'">Consultar Citas</button>
+            </center>
+        <footer>Copyright &copy;OsaVito03</footer>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="./css/index.css" type="text/css" media="all" />
+        <link rel="shortcut icon" href="img/favicon.ico"/>
+        <script type="text/javascript" src="js/Sesion.js"></script>
+        <title>Iniciar sesión</title>
+    </head>
+    <body background="img/background.png">
+        <h1><img src="./img/osavitoM.png" alt="OsaVito"></h1>
+        <form name="loginAdmin" action="loginP" method="post">
+            <center>TIS: <input type="number" name="tislogin" id="tislogin" min="1" placeholder="Número de la TIS" required=""/></center></br>
+            <center>FechaNacimiento: <input type="date" name="fecha" min="1990-01-01" max="2017-11-20" id="fecha" required=""/></center></br>
+            <center><button type="submit" onclick="guardarSesion();">Login</button> </center></br></br></br>
+            <a href="index.html">Volver</a>
+            
+        </form>
+        <footer>Copyright &copy;OsaVito03</footer>
+    </body>
+</html>

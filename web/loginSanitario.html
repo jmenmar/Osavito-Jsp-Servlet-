@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Iniciar sesión</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/index.css" type="text/css" media="all" />
+        <link rel="shortcut icon" href="img/favicon.ico"/>
+        <script type="text/javascript" src="js/SesionSanitario.js"></script>
+    </head>
+    <body background="img/background.png">
+        <h1><img src="./img/osavitoM.png" alt="OsaVito"></h1>
+        <form name="loginAdmin" action="loginS" method="post">
+            <center>Número colegiado <input type="number" name="numcolegiado" id="numcolegiado" min="1" placeholder="Número colegiado" required=""/></center></br>
+            <center><button type="submit" onclick="guardarSesion();">Login</button> </center></br></br></br>
+            <a href="index.html">Volver</a>  
+        </form>
+        <footer>Copyright &copy;OsaVito03</footer>
+    </body>
+</html>

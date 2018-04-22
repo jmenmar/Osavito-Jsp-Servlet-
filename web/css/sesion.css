@@ -1,0 +1,28 @@
+h1	{
+        border: 2px solid #609DC6;
+        border-radius: 5px;
+	background: #609DC6;
+	padding: 10px 20px 10px 10px;
+}
+h2	{
+        border: 2px solid #9EDC68;
+        border-radius: 5px;
+        font-family: Georgia;
+        font-size: 18px;
+	background: #9EDC68;
+	padding: 10px 20px 10px 20px;
+}
+h3	{
+        border: 2px solid #AFDDFD;
+        border-radius: 5px;
+        font-family: Times New Roman;
+        font-size: 16px;
+	background: #AFDDFD;
+	padding: 10px 20px 20px 20px;
+}
+footer{
+    position: inherit;
+    bottom: 0;
+}
+
+
